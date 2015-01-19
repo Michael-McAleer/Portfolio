@@ -1,0 +1,7 @@
+#Should cause an error
+#The tracks cross each other
+C 2 2 10 4
+J 2 5 9 5
+J 3 5 10 5
+T 2 5 SEEEEEEEN
+T 3 5 SSEEEEEEENN

@@ -1,0 +1,15 @@
+Artefacts
+-------------------
+23/05/2013 14:23:10
+Designer 10
+Date Created 11/11/1999
+Height 1cm	Width 1cm	Depth 1cm
+Material 1	Type 1	Style 1
+
+Catalogue Number 10
+Date Obtained 11/11/2000	Era 10
+Price Paid £10	Insurance Value £10
+Room Number 10	Display Number 10
+Bequeathed 10
+Donor 10
+

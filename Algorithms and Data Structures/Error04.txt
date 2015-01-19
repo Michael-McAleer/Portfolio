@@ -1,0 +1,7 @@
+#Should cause an error
+#The tracks do not join required points
+C 3 2 10 4
+J 4 5 9 5
+J 3 5 10 5
+T 4 5 SEEEEEN
+T 3 5 SSEEEEEEEN

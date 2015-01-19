@@ -1,0 +1,767 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SimplyMuseum</name>
+    </assembly>
+    <members>
+        <member name="T:SimplyMuseum.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:SimplyMuseum.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:SimplyMuseum.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.Program.AllocConsole">
+            <summary>
+            Allocates a new console for current process.
+            uses  System.Runtime.InteropServices;
+            
+            declaring extern (al) means available anywhere
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.Program.FreeConsole">
+            <summary>
+            Frees the console.
+            uses  System.Runtime.InteropServices;
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.Program.testHarness1">
+            <summary>
+            Test harness for adding an artefact to the system
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.Program.testHarness2">
+            <summary>
+            Test harness for addPainting and addFurniture. adds a painting and furniture to the system then tests listArtefacts
+            listPainting and listFurniture
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.Program.testHarness3">
+            <summary>
+            Tests populate method and calls the list methods and test print method
+            </summary>
+        </member>
+        <member name="T:SimplyMuseum.frmEditPainting">
+            <summary>
+            Start of form EditPainting
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.frmEditPainting.#ctor(SimplyMuseum.Museum)">
+            <summary>
+            Initialising the object museum to keep the information entered in the system through all the screens 
+            </summary>
+            <param name="m"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmEditPainting.setNewPainting">
+            <summary>
+            setNewPainting method sets the values in the text boxes
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.frmEditPainting.btn_addPainting_Click_1(System.Object,System.EventArgs)">
+            <summary>
+            AddPainting Button method allows the user to add furniture to the system
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmEditPainting.pbtn_Home_Click(System.Object,System.EventArgs)">
+            <summary>
+             Method for the picture box takes the user back to the HomeScreen and hides the current form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmEditPainting.btn_logOut_Click(System.Object,System.EventArgs)">
+            <summary>
+            Method for logout button takes the user back to the HomeScreen and hides the current form and displays a message to user
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmEditPainting.btn_back_Click(System.Object,System.EventArgs)">
+            <summary>
+            Back button method hides the current form and takes the user back a screen this one would display the addartefact form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmEditPainting.btn_UserScreen_Click(System.Object,System.EventArgs)">
+            <summary>
+            Method for user screen button hides the current form and displays the User Screen form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:SimplyMuseum.frmEditPainting.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.frmEditPainting.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SimplyMuseum.frmEditPainting.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SimplyMuseum.HomeScreen">
+            <summary>
+            Start of form HomeScreen
+            </summary>
+        </member>
+        <member name="F:SimplyMuseum.HomeScreen.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.HomeScreen.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SimplyMuseum.HomeScreen.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.HomeScreen.#ctor">
+            <summary>
+            Start of initialising the object museum so it can be passed through the other forms
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.HomeScreen.Clicked(System.Object,System.EventArgs)">
+            <summary>
+            Method for Clicking on HomeScreen opens up UserScreen and hides the current form and displays a message for user
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:SimplyMuseum.frmAddPainting">
+            <summary>
+            Start of form AddPainting
+            </summary>
+        </member>
+        <member name="F:SimplyMuseum.frmAddPainting.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.frmAddPainting.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SimplyMuseum.frmAddPainting.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.frmAddPainting.#ctor(SimplyMuseum.Museum)">
+            <summary>
+            Initialising the object museum to keep the information entered in the system through all the screens
+            </summary>
+            <param name="m"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmAddPainting.setNewPainting">
+            <summary>
+            setNewPainting method sets the values in the text boxes
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.frmAddPainting.btn_addPainting_Click_1(System.Object,System.EventArgs)">
+            <summary>
+            AddPainting Button method allows the user to add furniture to the system
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmAddPainting.btn_logOut_Click(System.Object,System.EventArgs)">
+            <summary>
+            Method for logout button takes the user back to the HomeScreen and hides the current form and displays a message to user
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmAddPainting.pbtn_Home_Click(System.Object,System.EventArgs)">
+            <summary>
+             Method for the picture box takes the user back to the HomeScreen and hides the current form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmAddPainting.btn_back_Click(System.Object,System.EventArgs)">
+            <summary>
+            Back button method hides the current form and takes the user back a screen this one would display the addartefact form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmAddPainting.btn_UserScreen_Click(System.Object,System.EventArgs)">
+            <summary>
+            Method for user screen button hides the current form and displays the User Screen form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:SimplyMuseum.UserScreen">
+            <summary>
+            Start of form UserScreen
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.UserScreen.#ctor(SimplyMuseum.Museum)">
+            <summary>
+            Initialising the object museum to keep the information entered in the system through all the screens
+            </summary>
+            <param name="m"></param>
+        </member>
+        <member name="M:SimplyMuseum.UserScreen.pbtn_Home_Click(System.Object,System.EventArgs)">
+            <summary>
+             Method for the picture box takes the user back to the HomeScreen and hides the current form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.UserScreen.btn_listArtefact_Click(System.Object,System.EventArgs)">
+            <summary>
+            Method for listArtefact clears the console then calls the populate and listArtefact methods from the Museum class and displays a message to user
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.UserScreen.btn_listPainting_Click(System.Object,System.EventArgs)">
+            <summary>
+            Method for listPainting clears the console then calls the populate and listPainting methods from the Museum class and displays a message to user
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.UserScreen.btn_listFurniture_Click(System.Object,System.EventArgs)">
+            <summary>
+            Method for listFurniture clears the console then calls the populate and listFurniture methods from the Museum class and displays a message to user
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.UserScreen.btn_Print_Click(System.Object,System.EventArgs)">
+            <summary>
+            Method for Print button calls the populate and print artefact methods from the Museum class and displays a message to user
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.UserScreen.btn_logOut_Click(System.Object,System.EventArgs)">
+            <summary>
+            Method for logout button takes the user back to the HomeScreen and closes the current form and displays a message to user
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.UserScreen.btn_addArtefact_Click(System.Object,System.EventArgs)">
+            <summary>
+            addArtefact method opens up addArtefact form and hides UserScreen
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.UserScreen.btn_EditArtefact_Click(System.Object,System.EventArgs)">
+            <summary>
+            EditArtefact button method opens up EditArtefact form and hides UserScreen
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:SimplyMuseum.UserScreen.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.UserScreen.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SimplyMuseum.UserScreen.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SimplyMuseum.frmAddArtefact">
+            <summary>
+            Start of form AddArtefact 
+            </summary>
+        </member>
+        <member name="F:SimplyMuseum.frmAddArtefact.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.frmAddArtefact.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SimplyMuseum.frmAddArtefact.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.frmAddArtefact.#ctor(SimplyMuseum.Museum)">
+            <summary>
+             Initialising the object museum to keep the information entered in the system through all the screens
+            </summary>
+            <param name="m"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmAddArtefact.pbtn_Home_Click(System.Object,System.EventArgs)">
+            <summary>
+            Method for the picture box takes the user back to the HomeScreen and hides the current form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmAddArtefact.btn_logOut_Click(System.Object,System.EventArgs)">
+            <summary>
+            Method for logout button takes the user back to the HomeScreen and hides the current form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmAddArtefact.btn_addFurniture_Click(System.Object,System.EventArgs)">
+            <summary>
+            add furniture button method calls the form add furniture and hides the current form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmAddArtefact.btn_addPainting_Click(System.Object,System.EventArgs)">
+            <summary>
+            addPainting button method calls the form add Painting and hides the current form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmAddArtefact.btn_back_Click(System.Object,System.EventArgs)">
+            <summary>
+            back button method takes the user to the previous form and hides the current form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:SimplyMuseum.Museum">
+            <summary>
+            Start of class Museum this class holds all the methods
+            </summary>
+        </member>
+        <member name="F:SimplyMuseum.Museum.artefacts">
+            <summary>
+            Creates a List of artefacts and gives it the name artefacts.
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.Museum.#ctor">
+            <summary>
+            Museum constructor creates a new list of artefacts.
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.Museum.addPainting(System.Int32,System.DateTime,System.Decimal,System.Decimal,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.DateTime,System.Int32,System.Int32,System.String)">
+            <summary>
+            addPainting method takes parameters to allow information to be added into the list
+            </summary>
+            <param name="cn">catalogueNumber</param> 
+            <param name="dob">dateObtained</param> 
+            <param name="pp">pricePaid</param> 
+            <param name="iv">insuranceValue</param> 
+            <param name="rn">roomNumber</param> 
+            <param name="dn">displayNumber</param> 
+            <param name="e">era</param> 
+            <param name="b">beqeathed</param> 
+            <param name="d">donor</param> 
+            <param name="a">artist</param> 
+            <param name="dp">datePainted</param> 
+            <param name="fh">frameHeight</param> 
+            <param name="fw">frameWidth</param> 
+            <param name="w">watercolour</param> 
+        </member>
+        <member name="M:SimplyMuseum.Museum.addFurniture(System.Int32,System.DateTime,System.Decimal,System.Decimal,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.DateTime,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            addFurniture method takes parameters to allow information to be added into the list
+            </summary>
+            <param name="cn">catalogueNumber</param> 
+            <param name="dob">dateObtained</param> 
+            <param name="pp">pricePaid</param> 
+            <param name="iv">insuranceValue</param> 
+            <param name="rn">roomNumber</param> 
+            <param name="dn">displayNumber</param>
+            <param name="e">era</param> 
+            <param name="b">beqeathed</param> 
+            <param name="d">donor</param> 
+            <param name="de">designer</param> 
+            <param name="dc">dateCreated</param> 
+            <param name="h">height</param> 
+            <param name="w">width</param> 
+            <param name="dep">depth</param> 
+            <param name="m">material</param>
+            <param name="t">type</param> 
+            <param name="s">style</param> 
+        </member>
+        <member name="M:SimplyMuseum.Museum.listArtefact">
+            <summary>
+            listArtefact method displays each individual artefact in the list
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.Museum.listPainting">
+            <summary>
+            listPainting method displays each individual painting in the list
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.Museum.listFurniture">
+            <summary>
+            listFurniture method displays each individual furniture in the list
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.Museum.findArtefactByCatNum(System.Int32)">
+            <summary>
+            findArtefactByCatNum methid searches through the list to fin an artefact using its catalogue number
+            </summary>
+            <param name="catNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SimplyMuseum.Museum.printArtefact(System.String)">
+            <summary>
+            printArtefact method sends the Artefact list to a document file 
+            </summary>
+            <param name="filename"></param>
+        </member>
+        <member name="M:SimplyMuseum.Museum.populate">
+            <summary>
+            populate class adds values to the system
+            </summary>
+        </member>
+        <member name="P:SimplyMuseum.Museum.Artefacts">
+            <summary>
+            get method for artefacts allows other classes to access it but noi set method means they cannot set a value.
+            </summary>
+        </member>
+        <member name="T:SimplyMuseum.frmEditArtefact">
+            <summary>
+            Start of form EditArtefact
+            </summary>
+        </member>
+        <member name="F:SimplyMuseum.frmEditArtefact.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.frmEditArtefact.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SimplyMuseum.frmEditArtefact.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.frmEditArtefact.#ctor(SimplyMuseum.Museum)">
+            <summary>
+            Initialising the object museum to keep the information entered in the system through all the screens
+            </summary>
+            <param name="m"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmEditArtefact.pbtn_Home_Click(System.Object,System.EventArgs)">
+            <summary>
+            Method for the picture box takes the user back to the HomeScreen and hides the current form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmEditArtefact.btn_logOut_Click(System.Object,System.EventArgs)">
+            <summary>
+            Method for logout button takes the user back to the HomeScreen and hides the current form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmEditArtefact.btn_back_Click(System.Object,System.EventArgs)">
+            <summary>
+            back button method takes the user to the previous form and hides the current form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmEditArtefact.btn_EditFurniture_Click(System.Object,System.EventArgs)">
+            <summary>
+            Edit Furniture button method displays the edit furniture form and hides the current form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmEditArtefact.btn_EditPainting_Click(System.Object,System.EventArgs)">
+            <summary>
+            Edit Painting button method displays the edit painting form and hides the current form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:SimplyMuseum.frmAddFurniture">
+            <summary>
+            Start of form AddFurniture
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.frmAddFurniture.#ctor(SimplyMuseum.Museum)">
+            <summary>
+             Initialising the object museum to keep the information entered in the system through all the screens
+            </summary>
+            <param name="m"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmAddFurniture.setNewFurniture">
+            <summary>
+            SetNewFurniture method sets the values in the text boxes for frmAddFurniture
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.frmAddFurniture.btn_addFurniture_Click(System.Object,System.EventArgs)">
+            <summary>
+            AddFurniture Button method allows the user to add furniture to the system
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmAddFurniture.btn_logOut_Click(System.Object,System.EventArgs)">
+            <summary>
+            Method for logout button takes the user back to the HomeScreen and hides the current form and displays a message to user
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmAddFurniture.pbtn_Home_Click(System.Object,System.EventArgs)">
+            <summary>
+             Method for the picture box takes the user back to the HomeScreen and hides the current form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmAddFurniture.btn_back_Click(System.Object,System.EventArgs)">
+            <summary>
+            Back button method hides the current form and takes the user back a screen this one would display the addartefact form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmAddFurniture.btn_UserScreen_Click(System.Object,System.EventArgs)">
+            <summary>
+            Method for user screen button hides the current form and displays the User Screen form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:SimplyMuseum.frmAddFurniture.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.frmAddFurniture.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SimplyMuseum.frmAddFurniture.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:SimplyMuseum.Artefact">
+            <summary>
+            Start of Abstract Artefact Class
+            </summary>
+        </member>
+        <member name="F:SimplyMuseum.Artefact.catalogueNumber">
+            <summary>
+            Variables for Artefact class. Automatically made private
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.Artefact.#ctor(System.Int32,System.DateTime,System.Decimal,System.Decimal,System.Int32,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            Constructor called Artefact, takes the parameters created and assigns them to the variables.
+            </summary>
+            <param name="intcatnum">catalogueNumber</param> 
+            <param name="intdateobt">dateObtained</param>
+            <param name="intprice">pricePaid</param>
+            <param name="intvalue">insuranceValue</param>
+            <param name="introom">roomNumber</param>
+            <param name="intdisplay">displayNumber</param>
+            <param name="strera">Era</param>
+            <param name="strbequeathed">bequeathed</param>
+            <param name="strdonor">donor</param>
+        </member>
+        <member name="M:SimplyMuseum.Artefact.ToString">
+            <summary>
+            Tostring method sets the way the information is displayed in the console window.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:SimplyMuseum.Artefact.CatalogueNumber">
+            <summary>
+            Get set method to allow other classes to acess catalogue number 
+            </summary>
+        </member>
+        <member name="F:SimplyMuseum.Painting.artist">
+            <summary>
+            Variables for Painting class. Automatically made private
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.Painting.#ctor(System.Int32,System.DateTime,System.Decimal,System.Decimal,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.DateTime,System.Int32,System.Int32,System.String)">
+            <summary>
+            Painting Constructor to take the parameters created and assigns them to the variables.
+            </summary>
+            <param name="intcatnum">catalogueNumber</param>
+            <param name="intdateobt">dateObtained</param>
+            <param name="intprice">pricePaid</param>
+            <param name="intvalue">insuranceValue</param>
+            <param name="introom">roomNumber</param>
+            <param name="intdisplay">displayNumber</param>
+            <param name="strera">Era</param>
+            <param name="strbequeathed">bequeathed</param>
+            <param name="strdonor">donor</param>
+            <param name="strartist">artist</param>
+            <param name="intdatepainted">datePainted</param>
+            <param name="intframeheight">frameHeight</param>
+            <param name="intframewidth">frameWidth</param>
+            <param name="strwatercolour">watercolour</param>
+        </member>
+        <member name="M:SimplyMuseum.Painting.ToString">
+            <summary>
+            Tostring method sets the way the information is displayed in the console window.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:SimplyMuseum.Furniture.designer">
+            <summary>
+            Variables for Furniture class. Automatically made private
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.Furniture.#ctor(System.Int32,System.DateTime,System.Decimal,System.Decimal,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.DateTime,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            Furniture Constructor to take the parameters created and assigns them to the variables.
+            </summary>
+            <param name="intcatnum">catalogueNumber</param>
+            <param name="intdateobt">dateObtained</param>
+            <param name="intprice">pricePaid</param>
+            <param name="intvalue">insuranceValue</param>
+            <param name="introom">roomNumber</param>
+            <param name="intdisplay">displayNumber</param>
+            <param name="strera">Era</param>
+            <param name="strbequeathed">bequeathed</param>
+            <param name="strdonor">donor</param>
+            <param name="strdesigner">designer</param>
+            <param name="intdatecreated">dateCreated</param>
+            <param name="intheight">height</param>
+            <param name="intwidth">width</param>
+            <param name="intdepth">depth</param>
+            <param name="strmaterial">material</param>
+            <param name="strtype">type</param>
+            <param name="strstyle">style</param>
+        </member>
+        <member name="M:SimplyMuseum.Furniture.ToString">
+            <summary>
+            Tostring method sets the way the information is displayed in the console window
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SimplyMuseum.frmEditFurniture">
+            <summary>
+            Start of form EditFurniture
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.frmEditFurniture.#ctor(SimplyMuseum.Museum)">
+            <summary>
+            Initialising the object museum to keep the information entered in the system through all the screens
+            </summary>
+            <param name="m"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmEditFurniture.setNewFurniture">
+            <summary>
+            SetNewFurniture method sets the values in the text boxes for frmAddFurniture
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.frmEditFurniture.btn_addFurniture_Click(System.Object,System.EventArgs)">
+            <summary>
+            AddFurniture Button method allows the user to add furniture to the system
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmEditFurniture.pbtn_Home_Click(System.Object,System.EventArgs)">
+            <summary>
+             Method for the picture box takes the user back to the HomeScreen and hides the current form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmEditFurniture.btn_logOut_Click(System.Object,System.EventArgs)">
+            <summary>
+            Method for logout button takes the user back to the HomeScreen and hides the current form and displays a message to user
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmEditFurniture.btn_back_Click(System.Object,System.EventArgs)">
+            <summary>
+            Back button method hides the current form and takes the user back a screen this one would display the addartefact form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:SimplyMuseum.frmEditFurniture.btn_UserScreen_Click(System.Object,System.EventArgs)">
+            <summary>
+            Method for user screen button hides the current form and displays the User Screen form
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:SimplyMuseum.frmEditFurniture.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SimplyMuseum.frmEditFurniture.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SimplyMuseum.frmEditFurniture.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

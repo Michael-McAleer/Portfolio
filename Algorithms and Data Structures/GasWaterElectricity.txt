@@ -1,0 +1,14 @@
+#Connect two houses to gas, water electricity
+# House A at 4 5 8 5
+# House B at 13 5 17 5
+# Gas to A
+J 4 12 4 5
+# Gas to B
+J 6 12 13 5
+# Water to A and B
+J 13 12 6 5
+J 15 12 15 5
+# Electricity to A and B
+J 22 12 8 5
+J 24 12 17 5
+E

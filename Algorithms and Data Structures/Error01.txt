@@ -1,0 +1,4 @@
+#Should cause an error
+#These chips overlap
+C 2 2 10 4
+C 10 4 12 6

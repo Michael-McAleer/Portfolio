@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SimplyMuseum.Artefact" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAgkAAAAAAAAAAAAAkgABCAAAAAAACA=</HashCode>
+      <FileName>Artefact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplyMuseum.Painting" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAgAgAQAAAAAQAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Artefact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplyMuseum.Furniture" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEQAQAAAAAAAAFAAQAAAAAIABAAAA=</HashCode>
+      <FileName>Artefact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplyMuseum.frmAddArtefact" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABAAAgEACAAABAAASCADBECAAAAAAAAQAgAgAAAAAA=</HashCode>
+      <FileName>frmAddArtefact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplyMuseum.frmAddFurniture" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/wBAEIsAACAAQBAQEyKAAEECgACAAAQAQCgAwAEgATA=</HashCode>
+      <FileName>frmAddFurniture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplyMuseum.frmAddPainting" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>9wRAEIoAACQASBAAACKAABECAACAAAQAQAoAQAEgAAk=</HashCode>
+      <FileName>frmAddPainting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplyMuseum.frmEditArtefact" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEBAIggAACAAABAAACCIEAECAAAAAAAAQAgAAABAAAA=</HashCode>
+      <FileName>frmEditArtefact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplyMuseum.frmEditFurniture" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/0BAEIsAACAAQBAQEiKAAEECgACAAAQAQCgAwAEgATA=</HashCode>
+      <FileName>frmEditFurniture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplyMuseum.frmEditPainting" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>9wRAMIoAACQASBAAACKAAAECAACAAAQAQAoAQAEgAAk=</HashCode>
+      <FileName>frmEditPainting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplyMuseum.HomeScreen" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAAACAAQAAAAAAAAAA=</HashCode>
+      <FileName>HomeScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplyMuseum.Museum" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAIAAAgAIIAIAAAICAgAgAA=</HashCode>
+      <FileName>Museum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplyMuseum.Program" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAgAAAAAAAAAAAAAAAgAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplyMuseum.UserScreen" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAhCAGAAABAAEAKABAECAAAAQAAIwAgAAACAABA=</HashCode>
+      <FileName>UserScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplyMuseum.Properties.Resources" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,17 @@
+#Connect three houses to gas, water electricity
+# House A at 4 5 8 5
+# House B at 13 5 17 5
+# House C at 13 5 17 5
+# Gas to A, B and C
+J 4 12 4 5
+J 6 12 13 5
+J 8 12 22 5
+# Water to A, B and C
+J 13 12 6 5
+J 15 12 15 5
+J 17 12 24 5
+# Electricity to A, B and C
+J 22 12 8 5
+J 24 12 17 5
+J 26 12 26 5
+E

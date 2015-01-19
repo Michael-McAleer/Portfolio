@@ -1,0 +1,5 @@
+#Should cause an error
+#The track goes over a chip
+C 2 2 10 4
+J 2 5 10 5
+T 2 5 SEENNESSEEEEEN

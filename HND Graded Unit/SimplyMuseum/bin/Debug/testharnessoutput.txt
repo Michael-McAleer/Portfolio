@@ -1,0 +1,25 @@
+Artefacts
+-------------------
+20/05/2013 13:30:01
+Designer Chair Maker	Date Created 1889
+Height 120cm	Width 60cm	Depth 30cm
+Material Pine
+Type Chair	Style Victorian
+Catalogue Number 1025
+Date Obtained 1959	Era Victorian
+Price Paid £200	Insurance Value £1000
+Room Number 12	Display Number 16
+Bequeathed Yes
+Donor Edinburgh Art
+
+Artist Da Vinci
+Date Painted 1679
+Frame Height 190cm	Frame Width 150cm
+Watercolour Paint
+Catalogue Number 1024
+Date Obtained 1989	Era Renaisance
+Price Paid £500	Insurance Value £2000
+Room Number 12	Display Number 15
+Bequeathed No
+Donor Glasgow Art
+

@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SAProject\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SAProject\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SAProject\ClassLibrary1\bin\Debug\DataLayer.dll
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SAProject\ClassLibrary1\bin\Debug\DataLayer.pdb
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SAProject\ClassLibrary1\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SAProject\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SAProject\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

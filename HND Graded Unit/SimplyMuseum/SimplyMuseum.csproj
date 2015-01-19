@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3C72E5C5-2AE3-4343-B074-DF0ABFEDE778}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SimplyMuseum</RootNamespace>
+    <AssemblyName>SimplyMuseum</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\SimplyMuseum.XML</DocumentationFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Artefact.cs" />
+    <Compile Include="frmAddArtefact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddArtefact.Designer.cs">
+      <DependentUpon>frmAddArtefact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddFurniture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddFurniture.Designer.cs">
+      <DependentUpon>frmAddFurniture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddPainting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddPainting.Designer.cs">
+      <DependentUpon>frmAddPainting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditArtefact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditArtefact.Designer.cs">
+      <DependentUpon>frmEditArtefact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditFurniture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditFurniture.Designer.cs">
+      <DependentUpon>frmEditFurniture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditPainting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditPainting.Designer.cs">
+      <DependentUpon>frmEditPainting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeScreen.Designer.cs">
+      <DependentUpon>HomeScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Museum.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UserScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserScreen.Designer.cs">
+      <DependentUpon>UserScreen.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAddArtefact.resx">
+      <DependentUpon>frmAddArtefact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddFurniture.resx">
+      <DependentUpon>frmAddFurniture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddPainting.resx">
+      <DependentUpon>frmAddPainting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditArtefact.resx">
+      <DependentUpon>frmEditArtefact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditFurniture.resx">
+      <DependentUpon>frmEditFurniture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditPainting.resx">
+      <DependentUpon>frmEditPainting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeScreen.resx">
+      <DependentUpon>HomeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserScreen.resx">
+      <DependentUpon>UserScreen.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\pixel-museum.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
